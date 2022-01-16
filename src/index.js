@@ -14,7 +14,7 @@ ReactDOM.render(
             <Route path='/' element={<Navigate to = '/landing'/>}/>
             <Route path='/landing' element={<Landing/>}/>
             <Route path='/home' element={<Home/>}/>
-            <Route path='*' element={<p>404 Not Found!!</p>}/>
+            <Route path='*' element={<p>404 Not Found!!!!</p>}/>
           </Routes>
         </div>
     </Router>
