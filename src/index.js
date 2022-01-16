@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route, Link, Navigate} from 'react-rou
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/ripship">
         <div>
           <Routes>
             <Route path='/' element={<Navigate to = '/landing'/>}/>

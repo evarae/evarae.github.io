@@ -15,13 +15,7 @@ function Landing() {
   function handleLinkOnClick(){
     navigate('/home');
   }
-
-  // handleOnSubmit = () => {
-  //   history.push(`/dashboard`);
-  // };
   
-  //console.log("height: " + height);
-
   return (
     <div className="Landing">
       <header className="App-header">
