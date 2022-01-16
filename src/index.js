@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route, Link, Navigate} from 'react-rou
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
         <div>
           <Routes>
             <Route path='/' element={<Navigate to = '/landing'/>}/>
@@ -17,7 +17,7 @@ ReactDOM.render(
             <Route path='*' element={<p>404 Not Found!!</p>}/>
           </Routes>
         </div>
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
