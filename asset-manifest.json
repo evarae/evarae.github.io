@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ripship/static/css/main.b82fb969.css",
-    "main.js": "/ripship/static/js/main.46641fcd.js",
+    "main.js": "/ripship/static/js/main.73ed5624.js",
     "static/media/dream.png": "/ripship/static/media/dream.d4a5e1c534e5979321bf.png",
     "index.html": "/ripship/index.html",
     "main.b82fb969.css.map": "/ripship/static/css/main.b82fb969.css.map",
-    "main.46641fcd.js.map": "/ripship/static/js/main.46641fcd.js.map"
+    "main.73ed5624.js.map": "/ripship/static/js/main.73ed5624.js.map"
   },
   "entrypoints": [
     "static/css/main.b82fb969.css",
-    "static/js/main.46641fcd.js"
+    "static/js/main.73ed5624.js"
   ]
 }
