@@ -1,7 +1,10 @@
 import './Home.css';
-import {Grid, Box} from '@mui/material';
-import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import {Grid, Box, Toolbar, MenuItem, Menu, AppBar, Typography, Container, Button, Tooltip, IconButton, Avatar} from '@mui/material';
+import { BrowserRouter as Router, Routes, Route, Link, Navigate, useNavigate} from 'react-router-dom';
 import useWindowDimensions from '../../components/windowDimensions';
+import CustomBar from '../../components/CustomBar';
+import * as React from 'react';
+
 
 const bandcampPath = "https://ripship.bandcamp.com";
 const spotifyPath = "https://open.spotify.com/artist/1yx7HUETsdOE9oP6ISSVSX?si=NS-IbuAwSHaOMiOR70V1TA";
@@ -10,7 +13,7 @@ const facebookPath = "https://www.facebook.com/ripshipband";
 const onlyfansPath = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
 //props = primary, secondary, link, label    
-function MyButton(props) {
+function LinkButton(props) {
     return (
         <div>
             <Box sx={{border:1,
@@ -30,37 +33,39 @@ function Home() {
     const { height, width } = useWindowDimensions();
 
     return(
-        <div className="Home">
+        <div>
+        <CustomBar></CustomBar>
+        <div className="Home" style = {{marginLeft: '5%', marginRight: '5%'}}>
             <label style ={{fontSize: (width/5), fontFamily: 'Pirata One'}} >RIPSHIP</label>
-            <div>
+            {/* <div>
                 <p>Ripship is a band that writes songs. Sometimes they even make music. They are a music band.</p>
-            </div>
-            <customButton></customButton>
-            <div style = {{margin: '5%'}}>
+            </div> */}
+            <div>
                 <Grid container spacing={2}>
 
                 <Grid item md={2.4} xs={6}>
-                    <MyButton path = {bandcampPath} primary = "red" secondary = "lightBlue" label = "bandcamp"/>
+                    <LinkButton path = {bandcampPath} primary = "red" secondary = "lightBlue" label = "bandcamp"/>
                 </Grid>
 
                 <Grid item md={2.4} xs={6}>
-                    <MyButton path = {spotifyPath} primary = "yellow" secondary = "blue" label = "spotify"/>
+                    <LinkButton path = {spotifyPath} primary = "yellow" secondary = "blue" label = "spotify"/>
                 </Grid>
 
                 <Grid item md={2.4} xs={4}>
-                    <MyButton path = {instagramPath} primary = "lightGreen" secondary = "blue" label = "instagram"/>
+                    <LinkButton path = {instagramPath} primary = "lightGreen" secondary = "blue" label = "instagram"/>
                 </Grid>
 
                 <Grid item md={2.4} xs={4}>
-                    <MyButton path = {facebookPath} primary = "blue" secondary = "red" label = "facebook"/>
+                    <LinkButton path = {facebookPath} primary = "blue" secondary = "red" label = "facebook"/>
                 </Grid>
 
                 <Grid item md={2.4} xs={4}>
-                    <MyButton path = {onlyfansPath} primary = "purple" secondary = "orange" label = "onlyfans"/>
+                    <LinkButton path = {onlyfansPath} primary = "purple" secondary = "orange" label = "onlyfans"/>
                 </Grid>
                 
                 </Grid>
             </div>
+        </div>
         </div>
 
     );
