@@ -1,5 +1,6 @@
 import useWindowDimensions from '../../components/windowDimensions';
 import CustomBar from '../../components/CustomBar';
+import "../../index.css"
 
 function Contact() {
 
@@ -8,7 +9,9 @@ function Contact() {
     return(
         <div>
             <CustomBar></CustomBar>
-            <p>Contact page</p>
+            <div className='myStyle'>
+                <p>Contact page</p>
+            </div>
         </div>
 
     );

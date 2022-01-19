@@ -1,6 +1,4 @@
-import './Home.css';
-import {Grid, Box, Toolbar, MenuItem, Menu, AppBar, Typography, Container, Button, Tooltip, IconButton, Avatar} from '@mui/material';
-import { BrowserRouter as Router, Routes, Route, Link, Navigate, useNavigate} from 'react-router-dom';
+import {Grid, Box} from '@mui/material';
 import useWindowDimensions from '../../components/windowDimensions';
 import CustomBar from '../../components/CustomBar';
 import * as React from 'react';
@@ -35,8 +33,8 @@ function Home() {
     return(
         <div>
         <CustomBar></CustomBar>
-        <div className="Home" style = {{marginLeft: '5%', marginRight: '5%'}}>
-            <label style ={{fontSize: (width/5), fontFamily: 'Pirata One'}} >RIPSHIP</label>
+        <div className='myStyle'>
+            <text className = 'myHeader' style ={{fontSize: (width/5)}}>RIPSHIP</text>
             {/* <div>
                 <p>Ripship is a band that writes songs. Sometimes they even make music. They are a music band.</p>
             </div> */}

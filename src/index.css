@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.myStyle {
+  font-family: Arial;
+  text-align: center;
+  margin-left : 5%;
+  margin-right : 5%;
+  color: black;
+  background-color: white;
+}
+
+.myHeader {
+  font-family: 'Pirata One';
+  font-size: xx-large;
+  color:black;
+}
+
+.myText {
+  text-align: left;
+  display: block;
+}
