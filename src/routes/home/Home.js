@@ -4,11 +4,11 @@ import CustomBar from '../../components/CustomBar';
 import * as React from 'react';
 
 
-const bandcampPath = "https://ripship.bandcamp.com";
-const spotifyPath = "https://open.spotify.com/artist/1yx7HUETsdOE9oP6ISSVSX?si=NS-IbuAwSHaOMiOR70V1TA";
-const instagramPath = "https://www.instagram.com/ripship_/";
-const facebookPath = "https://www.facebook.com/ripshipband";
-const onlyfansPath = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+export const bandcampPath = "https://ripship.bandcamp.com";
+export const spotifyPath = "https://open.spotify.com/artist/1yx7HUETsdOE9oP6ISSVSX?si=NS-IbuAwSHaOMiOR70V1TA";
+export const instagramPath = "https://www.instagram.com/ripship_/";
+export const facebookPath = "https://www.facebook.com/ripshipband";
+export const onlyfansPath = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
 //props = primary, secondary, link, label    
 function LinkButton(props) {

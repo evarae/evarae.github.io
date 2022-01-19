@@ -68,9 +68,10 @@ function CustomBar(props){
 
             <Box sx={{ flexGrow: 1, display: 'flex'}}>
               <MyMenuIcon label = "home" path = "/home" primary = "yellow"></MyMenuIcon>
-                <MyMenuIcon label = "contact" path = "/contact" primary = "yellow"></MyMenuIcon>
-                <MyMenuIcon label = "about" path = "/about" primary = "yellow"></MyMenuIcon>
-                <MyMenuIcon label = "releases" path = "/releases" primary = "yellow"></MyMenuIcon>
+              <MyMenuIcon label = "about" path = "/about" primary = "yellow"></MyMenuIcon>
+              <MyMenuIcon label = "contact" path = "/contact" primary = "yellow"></MyMenuIcon>
+                
+                {/* <MyMenuIcon label = "releases" path = "/releases" primary = "yellow"></MyMenuIcon> */}
             </Box>
             </Toolbar>
         </Container>
