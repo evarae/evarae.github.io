@@ -10,15 +10,19 @@ function About() {
     const { height, width } = useWindowDimensions();
     const bio = Bio();
 
+    // div {
+    //     white-space: pre-wrap;
+    // }
+
     return(
         <div>
             <CustomBar></CustomBar>
             <div className = 'myStyle'>
                 <text className='myHeader'>About</text>
-                <div style = {{marginTop: '20px', marginBottom: '20px'}}>
+                <div style = {{marginTop: '20px', marginBottom: '20px', whiteSpace: 'pre-wrap'}}>
                 <Grid container spacing={2}>
                     <Grid item md = {6} xs = {12}>
-                        <Box sx = {{backgroundColor: 'yellow',  height: '100%'}}>
+                        <Box sx = {{backgroundColor: 'yellow',  height: '100%', border: 1, borderColor: 'red'}}>
                         <text className='myText' style = {{padding: '4%'}}>{bio}
                         </text>
                         </Box>

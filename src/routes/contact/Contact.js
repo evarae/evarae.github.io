@@ -19,7 +19,7 @@ function Contact() {
             <div style = {{marginTop: '20px', marginBottom: '20px'}}>
             <Grid container spacing={2}>
                 <Grid item md = {6} xs = {12}>
-                    <Box sx = {{backgroundColor: 'lightBlue',  height: '100%'}}>
+                    <Box sx = {{backgroundColor: 'pink',  height: '100%', border: 1, borderColor: 'red'}}>
                     <div className = 'myText' style={{padding: '4%'}}>
                             <text style={{paddingBottom: '4%', paddingTop: '4%'}}>
                                 For gigs and general shenanigans email us at <a href={`mailto:${email}`}>{email}</a>

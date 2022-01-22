@@ -2,6 +2,7 @@ import {Grid, Box} from '@mui/material';
 import useWindowDimensions from '../../components/windowDimensions';
 import CustomBar from '../../components/CustomBar';
 import * as React from 'react';
+import logo from '../../resources/images/metal.png'
 
 
 export const bandcampPath = "https://ripship.bandcamp.com";
@@ -14,7 +15,7 @@ export const onlyfansPath = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 function LinkButton(props) {
     return (
         <div>
-            <Box sx={{border:1,
+            <Box sx={{border:1, bgcolor: 'white',
                 ':hover': {
                 bgcolor: props.primary, 
                 color: props.secondary},
@@ -32,12 +33,18 @@ function Home() {
 
     return(
         <div>
-        <CustomBar></CustomBar>
+        <CustomBar isHome = {true}></CustomBar>
         <div className='myStyle'>
-            <text className = 'myHeader' style ={{fontSize: (width/5)}}>RIPSHIP</text>
+            {/* <text className = 'myHeader' style ={{fontSize: (width/5)}}>RIPSHIP</text> */}
             {/* <div>
                 <p>Ripship is a band that writes songs. Sometimes they even make music. They are a music band.</p>
             </div> */}
+            <img
+                src={logo}
+                alt={"image"}
+                loading="lazy"
+                style = {{width: (width/1.6), marginBottom: '-8%'}}
+            />
             <div>
                 <Grid container spacing={2}>
 

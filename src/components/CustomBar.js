@@ -1,5 +1,6 @@
 import {Grid, Box, Toolbar, MenuItem, Menu, AppBar, Typography, Container, Button, Tooltip, IconButton, Avatar} from '@mui/material';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate, useNavigate} from 'react-router-dom';
+import logo from '../resources/images/metal.png'
 
 function MyMenuIcon(props){
 
@@ -68,11 +69,21 @@ function CustomBar(props){
 
             <Box sx={{ flexGrow: 1, display: 'flex'}}>
               <MyMenuIcon label = "home" path = "/home" primary = "yellow"></MyMenuIcon>
+              <MyMenuIcon label = "releases" path = "/releases" primary = "yellow"></MyMenuIcon>
               <MyMenuIcon label = "about" path = "/about" primary = "yellow"></MyMenuIcon>
               <MyMenuIcon label = "contact" path = "/contact" primary = "yellow"></MyMenuIcon>
-                
                 {/* <MyMenuIcon label = "releases" path = "/releases" primary = "yellow"></MyMenuIcon> */}
             </Box>
+            {!props.isHome && 
+            <Box sx={{color: 'black', flexGrow: 0, fontFamily: 'Pirata One' }}>
+            <img
+                src={logo}
+                alt={"image"}
+                loading="lazy"
+                style = {{height: '50px', marginTop: "8px"}}
+            />
+            </Box>
+             }
             </Toolbar>
         </Container>
         </AppBar>
