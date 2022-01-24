@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ripship/static/css/main.d47aeace.css",
-    "main.js": "/ripship/static/js/main.281cf7d0.js",
-    "static/media/winecellar.jpg": "/ripship/static/media/winecellar.0f148b23caf49d9f182d.jpg",
-    "static/media/octopus.jpeg": "/ripship/static/media/octopus.c94451552cfbde3e4ab4.jpeg",
-    "static/media/dream.png": "/ripship/static/media/dream.d4a5e1c534e5979321bf.png",
-    "static/media/metal.png": "/ripship/static/media/metal.261de0cea4ff19c020d5.png",
-    "static/media/valhalla.JPG": "/ripship/static/media/valhalla.576140c0b5aea93f845a.JPG",
-    "index.html": "/ripship/index.html",
-    "main.d47aeace.css.map": "/ripship/static/css/main.d47aeace.css.map",
-    "main.281cf7d0.js.map": "/ripship/static/js/main.281cf7d0.js.map"
+    "main.css": "/static/css/main.d47aeace.css",
+    "main.js": "/static/js/main.85096502.js",
+    "static/media/winecellar.jpg": "/static/media/winecellar.0f148b23caf49d9f182d.jpg",
+    "static/media/octopus.jpeg": "/static/media/octopus.c94451552cfbde3e4ab4.jpeg",
+    "static/media/dream.png": "/static/media/dream.d4a5e1c534e5979321bf.png",
+    "static/media/metal.png": "/static/media/metal.261de0cea4ff19c020d5.png",
+    "static/media/valhalla.JPG": "/static/media/valhalla.576140c0b5aea93f845a.JPG",
+    "index.html": "/index.html",
+    "main.d47aeace.css.map": "/static/css/main.d47aeace.css.map",
+    "main.85096502.js.map": "/static/js/main.85096502.js.map"
   },
   "entrypoints": [
     "static/css/main.d47aeace.css",
-    "static/js/main.281cf7d0.js"
+    "static/js/main.85096502.js"
   ]
 }
