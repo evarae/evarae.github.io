@@ -10,7 +10,8 @@ import About from './routes/about/About';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="/ripship">
+    {/* <Router basename="/ripship"> */}
+    <Router>
         <div>
           <Routes>
             <Route path='/' element={<Navigate to = '/landing'/>}/>
