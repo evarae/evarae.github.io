@@ -29,7 +29,8 @@ function Contact() {
                                 <a style = {{color: 'blue'}} href= {instagramPath} target="_blank"> instagram (@ripship_) </a><text> and </text>
                                 <a style = {{color: 'blue'}} href= {facebookPath} target="_blank"> facebook </a>
                             </div>
-                         </div>
+                            
+                    </div>
                     </Box>
                 </Grid>
                 <Grid item md = {6} xs = {12}>

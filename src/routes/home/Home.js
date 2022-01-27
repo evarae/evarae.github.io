@@ -35,16 +35,18 @@ function Home() {
         <div>
         <CustomBar isHome = {true}></CustomBar>
         <div className='myStyle'>
-            {/* <text className = 'myHeader' style ={{fontSize: (width/5)}}>RIPSHIP</text> */}
-            {/* <div>
-                <p>Ripship is a band that writes songs. Sometimes they even make music. They are a music band.</p>
-            </div> */}
-            <img
-                src={logo}
-                alt={"image"}
-                loading="lazy"
-                style = {{width: (width/1.6), marginBottom: '-8%'}}
-            />
+            { width < 600 &&
+                <img
+                src={logo} alt={"image"} loading="lazy"
+                style = {{maxHeight: (width*0.75*0.95), maxWidth: (width*0.95)}}
+                />
+            }
+            { width >= 600 &&
+                <img
+                src={logo} alt={"image"} loading="lazy"
+                style = {{maxHeight: (width*0.75*0.7), maxWidth: (width*0.7), marginBottom: '-8%', marginTop: '-2%'}}
+                />
+            }
             <div>
                 <Grid container spacing={2}>
 

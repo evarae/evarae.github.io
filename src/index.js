@@ -7,6 +7,7 @@ import Home from './routes/home/Home';
 import Releases from './routes/releases/Releases';
 import Contact from './routes/contact/Contact';
 import About from './routes/about/About';
+import Gigs from './routes/gigs/Gigs';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,13 +15,14 @@ ReactDOM.render(
     <Router>
         <div>
           <Routes>
-            <Route path='/' element={<Navigate to = '/landing'/>}/>
+            <Route path='/' element={<Navigate to = '/home'/>}/>
             <Route path='/landing' element={<Landing/>}/>
             <Route path='/home' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/releases' element={<Releases/>}/>
-            <Route path='*' element={<p>404 Not Found!!!!</p>}/>
+            <Route path='/gigs' element={<Gigs/>}/>
+            <Route path='*' element={<Navigate to = '/landing'/>}/>
           </Routes>
         </div>
     </Router>

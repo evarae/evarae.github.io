@@ -2,6 +2,7 @@ import {Grid, Box, Toolbar, MenuItem, Menu, AppBar, Typography, Container, Butto
 import { BrowserRouter as Router, Routes, Route, Link, Navigate, useNavigate} from 'react-router-dom';
 import logo from '../resources/images/metal.png'
 
+
 function MyMenuIcon(props){
 
     const navigate = useNavigate();
@@ -72,7 +73,7 @@ function CustomBar(props){
               <MyMenuIcon label = "releases" path = "/releases" primary = "yellow"></MyMenuIcon>
               <MyMenuIcon label = "about" path = "/about" primary = "yellow"></MyMenuIcon>
               <MyMenuIcon label = "contact" path = "/contact" primary = "yellow"></MyMenuIcon>
-                {/* <MyMenuIcon label = "releases" path = "/releases" primary = "yellow"></MyMenuIcon> */}
+              {/* <MyMenuIcon label = "gigs" path = "/gigs" primary = "yellow"></MyMenuIcon> */}
             </Box>
             {!props.isHome && 
             <Box sx={{color: 'black', flexGrow: 0, fontFamily: 'Pirata One' }}>
@@ -80,7 +81,7 @@ function CustomBar(props){
                 src={logo}
                 alt={"image"}
                 loading="lazy"
-                style = {{height: '50px', marginTop: "8px"}}
+                style = {{height: '37px', marginTop: "5px"}}
             />
             </Box>
              }
