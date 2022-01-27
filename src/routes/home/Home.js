@@ -34,7 +34,7 @@ function Home() {
     return(
         <div>
         <CustomBar isHome = {true}></CustomBar>
-        <div className='myStyle'>
+        <div style = {{textAlign: "center"}}>
             { width < 600 &&
                 <img
                 src={logo} alt={"image"} loading="lazy"
@@ -47,7 +47,7 @@ function Home() {
                 style = {{maxHeight: (width*0.75*0.7), maxWidth: (width*0.7), marginBottom: '-8%', marginTop: '-2%'}}
                 />
             }
-            <div>
+            <div className='myStyle'>
                 <Grid container spacing={2}>
 
                 <Grid item md={2.4} xs={6}>
