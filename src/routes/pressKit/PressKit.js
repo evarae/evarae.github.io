@@ -39,11 +39,11 @@ function PressKit() {
                         <div style={{height:'10px'}}></div>
                         <text className='mySubHeader'>Reviews</text>
                         <div style={{padding: "20px"}}>
-                            <text className='myText' >"{review2}" - <Link target={'_blank'} href='https://www.muzic.net.nz/articles/reviews/93399/daniel-armstrong-the-monsoons-gig-review-daniel-armstrong-the-monsoons-the-tuning-fork-auckland-27052022?fbclid=IwAR1oVEkqk2gRC2JFhjtJAlzu-ycyQjyCUzRh50sNEV-L4ifBPQ7Eb5I9sIY'> Muzic.net, May 2022 </Link></text>
+                            <text className='myText' style={{fontStyle: 'italic'}}>"{review2}" - <Link target={'_blank'} href='https://www.muzic.net.nz/articles/reviews/93399/daniel-armstrong-the-monsoons-gig-review-daniel-armstrong-the-monsoons-the-tuning-fork-auckland-27052022?fbclid=IwAR1oVEkqk2gRC2JFhjtJAlzu-ycyQjyCUzRh50sNEV-L4ifBPQ7Eb5I9sIY'> Muzic.net, May 2022 </Link></text>
                             <div style={{height: '20px'}}></div>
-                            <text className='myText' >"{review}" - <Link target={'_blank'} href='https://www.13thfloor.co.nz/concert-review-dartz-whammy-bar-auckland-13-february-2021/?fbclid=IwAR0_8Q-G7F_Znm25WYbulSISgdBmnGTQALWeFedOFzPX8gHIode-IJgyWc4'> 13th Floor, Feb 2021</Link></text>
+                            <text className='myText' style={{fontStyle: 'italic'}}>"{review}" - <Link target={'_blank'} href='https://www.13thfloor.co.nz/concert-review-dartz-whammy-bar-auckland-13-february-2021/?fbclid=IwAR0_8Q-G7F_Znm25WYbulSISgdBmnGTQALWeFedOFzPX8gHIode-IJgyWc4'> 13th Floor, Feb 2021</Link></text>
                             <div style={{height: '20px'}}></div>
-                            <text className='myText' >"{review3}" - <Link target={'_blank'} href='https://www.13thfloor.co.nz/concert-review-whammyfest-2019-night-one-whammy-bar-october-25-2019/?fbclid=IwAR02_BhotlEStQiuoqmYZpDFf34Grnpd1JlIQ-IOnKP0jyzXagyBdel6B2Q'> 13th Floor, Oct 2019 </Link></text>
+                            <text className='myText' style={{fontStyle: 'italic'}}>"{review3}" - <Link target={'_blank'} href='https://www.13thfloor.co.nz/concert-review-whammyfest-2019-night-one-whammy-bar-october-25-2019/?fbclid=IwAR02_BhotlEStQiuoqmYZpDFf34Grnpd1JlIQ-IOnKP0jyzXagyBdel6B2Q'> 13th Floor, Oct 2019 </Link></text>
                         </div>
                         <div style={{height:'20px'}}></div>
 
