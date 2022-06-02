@@ -27,6 +27,12 @@ code {
   color:black;
 }
 
+.mySubHeader {
+  font-family: 'Pirata One';
+  font-size: x-large;
+  color:black;
+}
+
 .myText {
   text-align: left;
   display: block;

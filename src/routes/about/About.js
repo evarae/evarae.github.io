@@ -4,6 +4,8 @@ import "../../index.css"
 import {Grid, Box} from '@mui/material';
 import valhalla from '../../resources/images/valhalla.JPG'
 import Bio from '../../components/bio'
+import {longBio} from "../../components/BioBox";
+
 
 function About() {
 
@@ -23,7 +25,7 @@ function About() {
                 <Grid container spacing={2}>
                     <Grid item md = {6} xs = {12}>
                         <Box sx = {{backgroundColor: 'yellow',  height: '100%', border: 1, borderColor: 'red'}}>
-                        <text className='myText' style = {{padding: '4%'}}>{bio}
+                        <text className='myText' style = {{padding: '4%'}}>{longBio}
                         </text>
                         </Box>
                     </Grid>

@@ -12,7 +12,7 @@ export const facebookPath = "https://www.facebook.com/ripshipband";
 export const onlyfansPath = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
 //props = primary, secondary, link, label    
-function LinkButton(props) {
+export function LinkButton(props) {
     return (
         <div>
             <Box sx={{border:1, bgcolor: 'white',

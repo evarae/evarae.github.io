@@ -31,60 +31,14 @@ function CustomBar(props){
         <Container maxWidth="xl" sx = {{p:0, m:0, bgcolor: 'transparent'}}>
             <Toolbar disableGutters variant="dense">
 
-            {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-            <IconButton
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleOpenNavMenu}
-              color="inherit"
-            >
-              <p>menu</p>
-            </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: 'block', md: 'none' },
-              }}
-            >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
-          </Box> */}
-
-
-
             <Box sx={{ flexGrow: 1, display: 'flex'}}>
-              <MyMenuIcon label = "home" path = "/home" primary = "yellow"></MyMenuIcon>
-              <MyMenuIcon label = "releases" path = "/releases" primary = "yellow"></MyMenuIcon>
-              <MyMenuIcon label = "about" path = "/about" primary = "yellow"></MyMenuIcon>
-              <MyMenuIcon label = "contact" path = "/contact" primary = "yellow"></MyMenuIcon>
+                <MyMenuIcon label = "home" path = "/home" primary = "yellow"></MyMenuIcon>
+                <MyMenuIcon label = "releases" path = "/releases" primary = "yellow"></MyMenuIcon>
+                <MyMenuIcon label = "about" path = "/about" primary = "yellow"></MyMenuIcon>
+                <MyMenuIcon label = "contact" path = "/contact" primary = "yellow"></MyMenuIcon>
+                <MyMenuIcon label = "press kit" path = "/presskit" primary = "yellow"></MyMenuIcon>
               {/* <MyMenuIcon label = "gigs" path = "/gigs" primary = "yellow"></MyMenuIcon> */}
             </Box>
-            {!props.isHome && 
-            <Box sx={{color: 'black', flexGrow: 0, fontFamily: 'Pirata One' }}>
-            <img
-                src={logo}
-                alt={"image"}
-                loading="lazy"
-                style = {{height: '37px', marginTop: "5px"}}
-            />
-            </Box>
-             }
             </Toolbar>
         </Container>
         </AppBar>

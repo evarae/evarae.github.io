@@ -1,4 +1,4 @@
-import dream from "../../resources/dream.png"
+import dream from "../../resources/images/dream.png"
 import useWindowDimensions from '../../components/windowDimensions';
 import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import { useNavigate } from 'react-router-dom'

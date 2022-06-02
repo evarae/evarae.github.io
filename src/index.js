@@ -8,6 +8,7 @@ import Releases from './routes/releases/Releases';
 import Contact from './routes/contact/Contact';
 import About from './routes/about/About';
 import Gigs from './routes/gigs/Gigs';
+import PressKit from "./routes/pressKit/PressKit";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.render(
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/releases' element={<Releases/>}/>
             <Route path='/gigs' element={<Gigs/>}/>
+            <Route path='/presskit' element={<PressKit/>}/>
             <Route path='*' element={<Navigate to = '/landing'/>}/>
           </Routes>
         </div>
