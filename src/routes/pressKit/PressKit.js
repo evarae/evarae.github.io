@@ -49,7 +49,7 @@ function PressKit() {
 
                         <text className='mySubHeader'>Links</text>
                         <div style={{padding:'20px'}}>
-                            <text style={{marginBottom: '10px'}} className='myText' >Spotify: <Link target={'_blank'} href={spotifyPath}>{spotifyPath}</Link> </text>
+                            <text style={{marginBottom: '10px', overflow: 'hidden', textOverflow: 'ellipsis'}} className='myText' >Spotify: <Link target={'_blank'} href={spotifyPath}>{spotifyPath}</Link> </text>
                             <text style={{marginBottom: '10px'}} className='myText' >Bandcamp: <Link target={'_blank'} href={bandcampPath}>{bandcampPath}</Link> </text>
                             <text style={{marginBottom: '10px'}} className='myText' >Instagram: <Link target={'_blank'} href={instagramPath}>{instagramPath}</Link> </text>
                             <text style={{marginBottom: '10px'}} className='myText' >Facebook: <Link target={'_blank'} href={facebookPath}>{facebookPath}</Link> </text>
