@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate} from 'react-router-dom';
-import {HashRouter} from "react-router-dom";
 import './index.css';
 import Landing from './routes/landing/Landing';
 import Home from './routes/home/Home';
@@ -14,7 +13,7 @@ import PressKit from "./routes/pressKit/PressKit";
 ReactDOM.render(
   <React.StrictMode>
     {/* <Router basename="/ripship"> */}
-    <HashRouter>
+    <Router>
         <div>
           <Routes>
             <Route path='/' element={<Navigate to = '/home'/>}/>
@@ -28,7 +27,7 @@ ReactDOM.render(
             <Route path='*' element={<Navigate to = '/landing'/>}/>
           </Routes>
         </div>
-    </HashRouter>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
