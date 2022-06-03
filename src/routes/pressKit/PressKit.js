@@ -22,7 +22,7 @@ function PressKit() {
     const review = Feb21Review();
     const review2= May22Review();
     const review3 = Oct19Review();
-    const dropBoxPath = "https://www.dropbox.com/s/34zgqac67kdz426/Ripship_EPK.zip?dl=0"
+    const dropBoxPath = "https://www.dropbox.com/s/9fy3f2f95o041zn/Ripship_EPK.zip?dl=0"
 
     const fearsomeBlurb = <text><i>Fearsome Engine</i> is the upcoming debut LP of sci-fi psych-rock duo Ripship. The nine-track album is an evolution of their genre-bending 2020 EP <i>Greebles</i>, expanding on themes of space exploration, technological anxiety and exponential growth. With the help of producer Peter Ruddell, <i>Fearsome Engine</i> makes no compromises. Lush synthetic soundscapes ebb and flow over polyrhythmic drum grooves and crushing guitars, and vocoded vocals provide robotic low-end. An uneasy sense of existential dread lies just beneath the goofy, tongue-in-cheek lyricism of Lincoln and McLean. The opening track, <i>The Great Filter</i>, begins with the division of cells in a systematically noisy march. The closer, <i>B13</i>, guides the listener through an eldritch nightmare. From computer supremacy to climate change, <i>Fearsome Engine</i> is an album about everything that ever was, and everything that will ever be.</text>
     const greatFilter = "follows intelligent life from the division of the first cells to the beginning of space exploration. Pounding rhythms and abrasive timbres respond to the question “Are we alone?” with “What if we aren’t?”"
@@ -39,14 +39,20 @@ function PressKit() {
     //     white-space: pre-wrap;
     // }
 
+    function DownloadButton(){
+        return(
+            <div style={{width: "200px", margin: 'auto', marginTop: '20px'}}>
+                <LinkButton path = {dropBoxPath} primary = "yellow" secondary = "blue" label = "Download EPK"/>
+            </div>
+        );
+    }
+
     return(
         <div>
             <CustomBar></CustomBar>
             <div className = 'myStyle'>
                 <text className='myHeader'>Electronic Press Kit</text>
-                <div style={{width: "200px", margin: 'auto', marginTop: '20px'}}>
-                    <LinkButton path = {dropBoxPath} primary = "yellow" secondary = "blue" label = "Download EPK"/>
-                </div>
+                <DownloadButton></DownloadButton>
                 <div style = {{marginTop: '20px', marginBottom: '20px', whiteSpace: 'pre-wrap'}}>
                     <Box sx = {{backgroundColor: 'white',  height: '100%', border: 2, borderColor: 'cornflowerBlue', marginBottom: '20px', padding: '20px'}}>
                         <text className='mySubHeader'>Bio</text>
@@ -159,6 +165,8 @@ function PressKit() {
                         </div>
                     </Box>
                     <Gallery></Gallery>
+                    <DownloadButton></DownloadButton>
+                    <div style={{marginBottom: '20px'}}></div>
                 </div>
             </div>
         </div>

@@ -11,13 +11,10 @@ export const shortBio = "Ripship are a sci-fi psych-rock duo hailing from Tāmak
 export const mediumBio = "Ripship are a sci-fi psych-rock duo hailing from Tāmaki Makaurau. The prolific performers shake venues with heavy riffs, off-kilter beats and deep synth loops. Science fiction and technological anxiety influence both the timbre and subject matter of Ripship’s songs, with vocoded lyrics touching on AI uprising, interstellar travel and the heat death of the universe.\n" +
     "\n" +
     "Callum Lincoln (guitar, synth, vocals) and Eva-Rae McLean (drums, vocals) met at a gig in 2018, but would have crossed paths many times in the Tamaki all-ages scene circa 2015-2016. Ripship's live performances are well-reviewed, with audiences and critics noting the surprisingly massive sound for a two-piece. \n"
-export const longBio = "Ripship are a sci-fi psych-rock duo hailing from Tāmaki Makaurau. The prolific performers shake venues with heavy riffs, off-kilter beats and deep synth loops. Science fiction and technological anxiety influence both the timbre and subject matter of Ripship’s songs, with vocoded lyrics touching on AI uprising, interstellar travel and the heat death of the universe.\n" +
-    "\n" +
-    "Callum Lincoln (guitar, synth, vocals) and Eva-Rae McLean (drums, vocals) met at a gig in 2018, but would have crossed paths many times in the Tamaki all-ages scene circa 2015-2016. The band's first gig was in 2019, and they concluded the year with their first festival performance at Whammyfest 2019.\n" +
-    "\n" +
-    "The duo's first release Greebles is a six-track EP, accompanied by a music video for Lube the Cube. Their first single, Man After Man, landed in the 95bFM top 10 for seven consecutive weeks, with most of the remaining tracks also claiming spots after the EP's release in May 2020. Reviews of the EP praised the variety of genres and the unique timbres achieved with a lo-fi setup.\n" +
-    "\n" +
-    "Ripship's live performances are well-reviewed, with audiences and critics noting the surprisingly massive sound for a two-piece. \n"
+export const longBio = <text><p>Ripship are a sci-fi psych-rock duo hailing from Tāmaki Makaurau. The prolific performers shake venues with heavy riffs, off-kilter beats and deep synth loops. Science fiction and technological anxiety influence both the timbre and subject matter of Ripship’s songs, with vocoded lyrics touching on AI uprising, interstellar travel and the heat death of the universe.</p>
+    <p>Callum Lincoln (guitar, synth, vocals) and Eva-Rae McLean (drums, vocals) met at a gig in 2018, but would have crossed paths many times in the Tamaki all-ages scene circa 2015-2016. The band's first gig was in 2019, and they concluded the year with their first festival performance at Whammyfest 2019.</p>
+    <p>The duo's first release <i>Greebles</i> is a six-track EP, accompanied by a music video for <i>Lube the Cube</i>. Their first single, <i>Man After Man</i>, landed in the 95bFM top 10 for seven consecutive weeks, with most of the remaining tracks also claiming spots after the EP's release in May 2020. Reviews of the EP praised the variety of genres and the unique timbres achieved with a lo-fi setup.</p>
+    <p>Ripship's live performances are well-reviewed, with audiences and critics noting the surprisingly massive sound for a two-piece.</p></text>
 
 
 function BioBox(){
