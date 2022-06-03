@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.f94e968d.css",
-    "main.js": "/static/js/main.73350409.js",
+    "main.css": "/static/css/main.17265e19.css",
+    "main.js": "/static/js/main.9699d424.js",
+    "static/media/GatefoldMockup.png": "/static/media/GatefoldMockup.f04ae4f883bc40b65ba9.png",
+    "static/media/FearsomeEngineCoverMockup.png": "/static/media/FearsomeEngineCoverMockup.a95faa87eefc35e0d4c6.png",
     "static/media/trippy.JPG": "/static/media/trippy.596eda51d5bf97ec0595.JPG",
     "static/media/winecellar.jpg": "/static/media/winecellar.0f148b23caf49d9f182d.jpg",
+    "static/media/BackCoverVinylMockup.png": "/static/media/BackCoverVinylMockup.67fc28931420c149ee7c.png",
+    "static/media/VinylMockupFront.png": "/static/media/VinylMockupFront.2958efac8e96bffde152.png",
     "static/media/couchLight.JPG": "/static/media/couchLight.a750f439250601ce43b3.JPG",
     "static/media/kroad.JPG": "/static/media/kroad.3d24c81ed7e8352ef078.JPG",
     "static/media/couchDark.jpeg": "/static/media/couchDark.5d9cde003fec362b4724.jpeg",
@@ -14,11 +18,11 @@
     "static/media/space1.jpg": "/static/media/space1.e76bb500f9c6eb21a5a4.jpg",
     "static/media/valhalla.JPG": "/static/media/valhalla.576140c0b5aea93f845a.JPG",
     "index.html": "/index.html",
-    "main.f94e968d.css.map": "/static/css/main.f94e968d.css.map",
-    "main.73350409.js.map": "/static/js/main.73350409.js.map"
+    "main.17265e19.css.map": "/static/css/main.17265e19.css.map",
+    "main.9699d424.js.map": "/static/js/main.9699d424.js.map"
   },
   "entrypoints": [
-    "static/css/main.f94e968d.css",
-    "static/js/main.73350409.js"
+    "static/css/main.17265e19.css",
+    "static/js/main.9699d424.js"
   ]
 }
