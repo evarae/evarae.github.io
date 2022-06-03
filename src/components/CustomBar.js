@@ -36,7 +36,7 @@ function CustomBar(props){
                 <MyMenuIcon label = "releases" path = "/releases" primary = "yellow"></MyMenuIcon>
                 <MyMenuIcon label = "about" path = "/about" primary = "yellow"></MyMenuIcon>
                 <MyMenuIcon label = "contact" path = "/contact" primary = "yellow"></MyMenuIcon>
-                {/*<MyMenuIcon label = "press kit" path = "/presskit" primary = "yellow"></MyMenuIcon>*/}
+                {<MyMenuIcon label = "press kit" path = "/presskit" primary = "yellow"></MyMenuIcon> && false}
               {/* <MyMenuIcon label = "gigs" path = "/gigs" primary = "yellow"></MyMenuIcon> */}
             </Box>
             </Toolbar>
