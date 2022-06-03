@@ -33,7 +33,19 @@ code {
   color:black;
 }
 
+.mySubHeader2 {
+  font-family: 'Pirata One';
+  font-size: large;
+  color:black;
+}
+
+.fearsomeEngine {
+  font-family: 'Gravitas One';
+}
+
 .myText {
   text-align: left;
   display: block;
 }
+
+

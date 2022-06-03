@@ -19,6 +19,7 @@ export const longBio = "Ripship are a sci-fi psych-rock duo hailing from Tāmaki
     "\n" +
     "Ripship's live performances are well-reviewed, with audiences and critics noting the surprisingly massive sound for a two-piece. \n"
 
+
 function BioBox(){
 
     const [value, setValue] = React.useState('2');
@@ -35,7 +36,7 @@ function BioBox(){
                 <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                     <TabList onChange={handleChange} aria-label="lab API tabs example" centered={true}
                              TabIndicatorProps={{
-                                 style: { background: "red"}
+                                 style: { background: "CornflowerBlue"}
                              }}>
                         <Tab label="Short Bio" value="1" style={{color: 'black'}} />
                         <Tab label="Medium Bio" value="2" style={{color: 'black'}} />
